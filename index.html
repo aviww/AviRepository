@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet2.css"/>
+    <title>צור קשר </title>
+    
 </head>
 <body>
+    <form>
+        <fieldset>
+            <h2 >צור קשר </h2>
+            <h3>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :</h3>
+            <legent>השדות המסומנים בכוכבית (*) הינם שדות חובה</legent>
+            
+                
+                <div>
+                    <label for="fname">  * שם פרטי </label>
+                    <input type="text" id="fname" name="fname" required/>
+                 
+                </div>
+                <div>
+                    <label for="lname">   * שם משפחה </label>
+                    <input type="text" id="lname" name="lname" required/>
+                 
+                </div>
+                <div>
+                    <label for="lname">  * טלפון </label>
+                    <input type="text" id="phone" name="phone" required/>
+                 
+                </div>
+                
+                <div>
+                    <label for="email"> * E-Mail </label>
+                    <input type="email" id="email" name="email"  required/>
+                </div>
+        
+                <div>
+                    
+                    <textarea id="comments" rows="5" cols="40"> תוכן הפנייה </textarea>
     
+                </div>
+                
+    
+        </fieldset>  
+    </form>
+        <input type="submit" value="שלח"/>
+        <div id="connecthead">
+            <h3>פרטי יצירת קשר</h3>
+            <div id="connectdetails">
+                    
+                    <h4>פז חברת נפט בע"מ    </h4>
+                    <p>
+            יורו פארק, בניין הולנד<br>        קיבוץ יקום 60972      <br>    טל. שירות לקוחות 1-800-774-774   <br>
+            פקס.09-8641714
+                    </p>
+                </div>
+    </div>
 </body>
 </html>
