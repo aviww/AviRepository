@@ -1,0 +1,114 @@
+* {box-sizing: border-box;}
+
+body {direction :rtl;
+    font-family:  'Arial (Hebrew)', Arial;
+  text-align: right;}
+
+label {color: white; }
+label:hover {color: #007aff;}
+label{
+  
+  
+  margin-right: 200px;
+}
+#search {
+    
+    float: left;}   
+#menu1 {position: relative;}
+#pazlogo {position: absolute; top:10px; right:500px}
+#homeblue {height: 15px; margin-left:12px;}    
+#facebook {height: 15px; margin-left:12px;} 
+
+#container {display: flex;
+justify-content: center;
+}
+.images {margin-right:7px; margin-top: 30px;}
+.images2 {margin-right:7px; margin-top: 20px;}
+.images > img {
+    border-bottom-right-radius: 7%;
+  }
+.images {position: relative;}
+.textonimg {position: absolute;
+    bottom: 8px;
+    right: 3%;
+    left: 12%;
+    color:white;
+    font-size: 13px;
+    padding-right:10px;
+    padding-top: 4px;
+    background-color: gray;
+    border-bottom-right-radius: 10%;}
+.textonimgh {font-weight: bold; font-size: 14px; }
+
+ .readmore {color:white; padding-right: 70%;} 
+ .textonimg a.readmore:hover {color: #007aff}
+#menu1  { display: flex;
+  justify-content: center;
+  background-color:gray ;
+ }
+
+#menu2 {display:flex;
+  position:fixed;
+  justify-content: center;
+  background-color:gray ;
+  bottom:0; 
+  width: 100%;                         
+  }
+
+li {list-style: none;} /* delete point */
+ul {padding-left: 0px;}  /*delete padding */
+nav > ul {display: flex;} /* to be arranged in one line */
+nav > ul > li {
+    padding-right: 10px; 
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: white;
+    background-color: gray;}
+#menu2 > nav > ul > li {
+      border: white;
+      background-color: gray;}
+
+ 
+nav > ul > li > a { color:white; font-weight: bold; font-size: 15px;
+    text-decoration: none;} /* because a does not inherited color */
+
+nav > ul > li > ul > li > a { color:white; 
+    font-weight: bold; font-size: 15px;
+      text-decoration: none;}
+nav > ul > li > a:hover {
+      color: #007aff;} /* because a does not inherited color */
+
+.dropdown {
+        background:gray;
+        visibility: hidden;
+        padding: 10px;
+        position: absolute;
+        display: none;
+        
+      }
+      
+ul li:hover > ul,
+ul li ul:hover {
+        visibility: visible;
+        display: block;
+        z-index: 2;
+      }
+
+#container2 {display: flex;
+        justify-content: center;
+        }
+.images2 {width:290px;
+        border-top-right-radius: 7%;
+        border: 1px solid rgb(223, 217, 217);
+       border-bottom: none; 
+        background-image: linear-gradient(white, rgb(236, 230, 230));}  
+.images2head {color:gray; font-weight: bold; padding-right: 10px;}  
+.images2 > img {padding-right: 19px;}
+.images2lnk {font-size: 13px; color:gray; margin-right: 180px;}
+.images3lnk {font-size: 13px; color:gray; }
+.images2 a.images2lnk:hover {color: #007aff}
+.images3 a.images3lnk:hover {color: #007aff}
+#container3 {display: flex;
+              justify-content: space-between;}
+
